@@ -4,6 +4,8 @@
 (princ)
 )
 
+;;;Added Comment
+
 ;;;Move Last
 (defun c:QMOVE (/)
   (SETVAR "CMDECHO" 0)
@@ -85,6 +87,6 @@
 	(command "-layer" "lock" "xref" "")
 	;;;
 	(command "imageframe" "0")
-	(command "regenall")
+	(command "regensome")
 (princ)
 )
